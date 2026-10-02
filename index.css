@@ -1,0 +1,1676 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.overall{
+    min-height:100vh;
+    overflow-x: hidden;
+    background-color: black;
+    /* background-color: brown; */
+}
+.ht1{
+  font-family: "Afacad", sans-serif;
+  font-weight:400;
+  font-size:50px;
+  color:white
+    
+}
+.ntop{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+}
+.nmid{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    font-size:24px;
+    color:white
+}
+.btn{
+    padding:10px 40px;
+    border:none;
+    border-radius:20px;
+    font-size:18px;
+    
+    /* border:1px solid grey; */
+    box-shadow: 2px 2px 3px white;
+    background-image:linear-gradient(t0 bottom,#ffffff 0%, #ffffff 50%, transparent 100%);
+    
+}
+.lab{
+    display: none;
+}
+.ic{
+    color:white
+}
+.bel{
+    display: none;
+}
+.nmid button{
+    display: none;
+}
+.ht2{
+   font-family: "Afacad", sans-serif;
+   color:white;
+   font-size:;
+   font-weight:400;  
+}
+.ht3{
+    font-size: 65px;
+}
+.home{
+    min-height:630px;
+    padding:20px;
+}
+.elli{
+    height:60px;
+    width:60px;
+}
+.elli2{
+    height:35px;
+    width:35px;
+}
+.elli3{
+    height:70px;
+    width:70px;
+}
+.elli4{
+    height:37px;
+    width:37px;
+}
+
+.cir{
+    position: relative;
+    top:20px;
+    left:20px;
+    /* height:100px;
+    width:100px; */
+}
+.elli{
+  position: absolute;
+  left:10px;
+  top:-50px; 
+   /* background-color:green;   */
+}
+.e2{
+    position: absolute;
+    top:-25px;
+    left:70px;
+    /* background-color:red; */
+    /* color:red */
+}
+.e3{
+    height:50px;
+    width:50px;
+
+    position: absolute;
+    top:5px;
+    left:75px;
+     /* background-color:blueviolet; */
+}
+.e4{
+    position: absolute;
+    top:40px;
+    left:75px;
+     /* background-color:yellowgreen; */
+}
+.e5{
+    position: absolute;
+    top:45px;
+    left:20px;
+     /* background-color:violet; */
+}
+.e6{
+    position: absolute;
+    top:-5px;
+    left:40px;
+     /* background-color:orange; */
+
+}
+.e7{
+    position: absolute;
+    top:23px;
+left:48px;
+    /* background-color: aqua; */
+}
+.e8{
+    position: absolute;
+    top:40px;
+left:-5px;
+    /* background-color: aqua; */
+}
+.e9{
+    position: absolute;
+    height:45px;
+    width:45px;
+    top:-2px;
+left:-15px;
+    /* background-color: aqua; */
+}
+.cir1{
+    /* left:-10px; */
+    position: relative;
+    left:-10px
+}
+.e21{
+/* background-color: aqua; */
+height:60px;
+width:60px;
+left:-40px;
+position:absolute
+}
+.e22{
+height:40px;
+width:40px;
+left:30px;
+top:10px;
+position:absolute;
+/* background-color:red */
+}
+.e23{
+height:50px;
+width:50px;
+left:50px;
+top:50px;
+position:absolute;
+}
+.e24{
+height:35px;
+width:35px;
+left:40px;
+top:90px;
+position:absolute;
+/* background-color: blanchedalmond; */
+}
+.e25{
+height:50px;
+width:50px;
+left:10px;
+top:40px;
+position:absolute;
+/* background-color: aqua; */
+}
+.e26{
+height:60px;
+width:60px;
+top:80px;
+left:-10px;
+/* background-color: aqua; */
+position: absolute;
+}
+.e27{
+height:40px;
+width:40px;
+top:60px;
+left:-30px;
+/* background-color: aqua; */
+position: absolute;
+}
+.pt{
+    /* font-family:"abel" */
+    color:white;
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-size:25px;
+    width:550px;
+    line-height:30px
+}
+.ig{
+   height:450px;
+   /* padding-left:50px; */
+   position: relative;
+    right:-150px;
+    z-index: 1;
+}
+.text{
+    padding-top:70px;
+    padding-left:10px;
+}
+.btn1{
+    padding:5px 10px;
+    margin-top:10px;
+    border-radius:20px;
+    border:none;
+    background-color:#3DD2D2;
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;;
+  color:white;
+}
+.ig1{
+       height: 450px;
+       width:450px;
+       /* padding-left:-50px; */
+         /* padding-top:60px; */
+    transform: rotateZ(233deg);
+    /* position: fixed; */
+    /* top:30px; */
+    
+    position: relative;
+    right: -110px;
+    
+    top: 10px;
+    /* background-color: white; */
+}
+.limg{
+    display: flex;
+    /* justify-content: center;
+    align-items: flex-start; */
+    /* padding-top: 20px;;
+    position: relative; */
+  
+}
+/* ithu home oda first div */
+.hf{
+display: flex;
+align-items: center;
+gap:80px
+/* justify-content: space-between; */
+}
+.text img{
+    display: none;
+}
+.bor{
+  height:30px;
+  width:200px;
+  /* background-color:white;  */
+  position: absolute;
+  top:600px; 
+  left:960px;
+box-shadow: 0px 0px 60px 60px black;
+z-index: 88;
+}
+
+.i1{
+    height:64.3px;
+    width:64.3px;
+    border:2px solid white
+}
+
+
+.card{
+    height:200px;
+    width:200px;
+    animation: cube;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    /* background-color: blueviolet; */
+    position:relative;
+    transform-style:preserve-3d ;
+    margin-top: 60px;;
+    margin-left:150px;
+    /* padding-left: 80px;; */
+}
+.side{
+    height:100%;
+    width:100%;
+    position: absolute;
+
+}
+/* positive value rotate top */
+.top{
+    transform:rotateX(90deg) translateZ(100px);
+    /* background-color: rgba(153, 144, 144, 0.911); */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color:rgba(10, 8, 8, 0.5);
+    /* border:5px solid white */
+
+}
+/* negative value opposite direction la suththum */
+.bottom{
+     transform:rotateX(-90deg) translateZ(100px);
+    /* background-color: rgba(16, 163, 248, 0.925); */
+     display: grid;
+    grid-template-columns: auto auto auto;
+     background-color:rgba(10, 8, 8, 0.5);
+}
+/* direction y la center ahh nikka vaika 90 deg kuduthurukkom */
+.right{
+    transform: rotateY(90deg) translateZ(100px);
+ /* background-color: rgba(248, 16, 179, 0.836); */
+  display: grid;
+    grid-template-columns: auto auto auto;
+     background-color:rgba(10, 8, 8, 0.5);
+}
+.left{
+     transform: rotateY(-90deg) translateZ(100px);
+ /* background-color: rgba(16, 248, 55, 0.795); */
+  display: grid;
+    grid-template-columns: auto auto auto;
+     background-color:rgba(10, 8, 8, 0.5);
+}
+.back{
+ transform: rotateX(-180deg) translateZ(100px);
+  /* background-color: rgba(248, 175, 16, 0.801); */
+   display: grid;
+    grid-template-columns: auto auto auto;
+     background-color:rgba(10, 8, 8, 0.5);
+}
+.front{
+transform: rotateX(0deg) translateZ(100px);
+  /* background-color: rgba(16, 248, 159, 0.904); */
+   display: grid;
+    grid-template-columns: auto auto auto;
+     background-color:rgba(10, 8, 8, 0.5);
+}
+@keyframes cube{
+    from{
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+    to{
+        transform: rotateX(360deg) rotateY(360deg);
+    }
+}
+/* ithuku aprm about kaana div */
+.about{
+    min-height:400px;
+    background-color: black;
+    color: white;
+}
+.ht4{
+   font-family: "Afacad", sans-serif;
+  font-weight:400;
+  text-align: center; 
+  font-size: 50px;
+ 
+}
+.s1{
+ border-bottom: 1px dashed white;
+}
+.lr{
+    display: flex;
+    padding:10px;
+}
+.leftbox{
+    padding:30px 0px;
+    padding-left: 20px;
+    width:50%;
+    /* color:white */
+}
+.rightbox{
+    /* background-color: aqua; */
+    width:50%;
+    padding:10px;
+}
+.ig2{
+    height:150px;
+    width:150px;
+    margin-left:50px
+    /* background:white; */
+}
+.ig3{
+height:150px;
+width:150px;
+margin-top:70px;
+margin-left:340px;
+}
+
+/* ithuku aprm ullathu right side kaana div */
+.rnm{
+    /* padding:20px ; */
+/* border:1px solid white; */
+width:250px;
+overflow-x: hidden;
+
+ /* font-family: "Afacad", sans-serif; */
+/* margin-left: 10px; */
+}
+.ht5{
+font-size:60px;
+/* -webkit-text-stroke: 2px white; */
+ font-family: "Abel", sans-serif;
+  /* font-family: "DM Sans", sans-serif; */
+ color:black;
+ font-weight:600 ;
+ -webkit-text-stroke: 0.1px white;
+ animation-name: name1;
+ animation-timing-function: linear;
+ animation-duration: 0.5s;
+ animation-delay: 0.5;
+ animation-fill-mode: forwards;
+ position: relative;
+ left:260px;
+
+}
+.ht6{
+font-size:60px;
+/* -webkit-text-stroke: 2px white; */
+ font-family: "Abel", sans-serif;
+  /* font-family: "DM Sans", sans-serif; */
+ color:black;
+ font-weight:600 ;
+ -webkit-text-stroke: 0.1px white;
+ animation-name: name2;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-delay: 0.5s;
+ animation-fill-mode: forwards;
+ position: relative;
+ left:250px;
+ 
+}
+.ht7{
+  font-size:60px;
+/* -webkit-text-stroke: 2px white; */
+ font-family: "Abel", sans-serif;
+  /* font-family: "DM Sans", sans-serif; */
+ color:black;
+ font-weight:600 ;
+ -webkit-text-stroke: 0.1px white; 
+ animation-name: name3; 
+ animation-duration: 0.5s;
+ animation-delay: 1s;
+ animation-timing-function: linear;
+ animation-fill-mode: forwards;
+ position: relative;
+ left:250px;
+}
+.ht8{
+ font-size:60px;
+/* -webkit-text-stroke: 2px white; */
+ font-family: "Abel", sans-serif;
+  /* font-family: "DM Sans", sans-serif; */
+ color:black;
+ font-weight:600 ;
+ -webkit-text-stroke: 0.1px white; 
+ animation-name: name4;  
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-delay: 1.5s;
+ animation-fill-mode: forwards;
+ position: relative;
+ left:250px;
+}
+.ht9{
+  font-size:60px;
+/* -webkit-text-stroke: 2px white; */
+ font-family: "Abel", sans-serif;
+  /* font-family: "DM Sans", sans-serif; */
+ color:black;
+ font-weight:600 ;
+ -webkit-text-stroke: 0.1px white;
+ animation-timing-function: linear;
+ animation-name: name5;  
+ animation-duration: 0.5s;
+ animation-delay: 2s;
+ animation-fill-mode: forwards;
+ position: relative;
+ left:250px;
+}
+.ht10{
+ font-size:60px;
+/* -webkit-text-stroke: 2px white; */
+ font-family: "Abel", sans-serif;
+  /* font-family: "DM Sans", sans-serif; */
+ color:black;
+ font-weight:600 ;
+ -webkit-text-stroke: 0.1px white; 
+ animation-timing-function: linear;
+ animation-name: name6;  
+  animation-duration: 0.5s;
+  animation-delay: 2.5s;
+ animation-fill-mode: forwards;
+ 
+ position: relative;
+ left:250px;
+}
+.wht{
+    letter-spacing: 0%;
+}
+
+@keyframes name{
+    100%{
+        /* opacity: 0; */
+    }
+}
+ @keyframes name1{
+0%{
+    left:100%
+}
+100%{
+    left:0%;
+}
+ }
+ @keyframes name2{
+  0%{
+    left:100%
+}
+100%{
+    left:0%;
+}  
+ }
+ @keyframes name3{
+    0%{
+    left:100%
+}
+100%{
+    left:0%; 
+ }
+}
+ @keyframes name4{
+  0%{
+    left:100%
+}
+100%{
+    left:0%;   
+ }
+ }
+ @keyframes name5{
+     0%{
+    left:100%
+}
+100%{
+    left:0%;
+}
+ }
+ @keyframes name6{
+ 0%{
+    left:100%
+}
+100%{
+    left:0%;   
+ }
+}
+.ptxt{
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-size:24px;
+    
+    width:550px;
+    padding-left:30px;
+    
+}
+.sp1{
+    font-size:40px;
+    /* padding-top:60px; */
+    /* padding-right:10px; */
+}
+.sp2{
+    font-size:40px;
+    padding-left:400px; 
+}
+.pp{
+    padding-top: 200px;;
+}
+/* ithuku prm varathu ellamae self odathu  */
+.self{
+    min-height:400px;
+    background-color: black;
+    padding:10px;
+    
+}
+.ht11{
+    color:white;
+     
+     font-family: "Afacad", sans-serif;
+  font-weight:400;
+  text-align: center; 
+  font-size: 50px;
+}
+.s5{
+    border-bottom: 1px dashed white;
+   
+}
+.bx{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    gap:60px 120px;
+    padding: 100px;
+    padding: 15px 5px;
+    padding-left: 25px;
+     /* overflow: hidden; */
+    
+}
+.bx1{
+    width:240px;
+    height:350px;
+    border:2px solid #ffffff;
+    border-radius:10px;
+    /* overflow: hidden; */
+    z-index: 77;
+}
+.rou{
+    height:60px;
+    width:60px;
+    /* background-color: white; */
+    position: relative;
+    left:75%;
+    overflow: hidden;
+}
+.round{
+    height:60px;
+    width:60px;
+    border-radius: 50%;
+    background-color:#D9D9D947;
+    position: absolute;
+    left:30%;
+    top:-25%;
+    z-index: 1;
+    
+    
+    
+
+}
+.ff{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top:px;
+    gap:80px;
+    position: relative;
+    top:-210px;
+    /* margin-bottom: 80px;; */
+   
+}
+.fimg{
+width:85px;
+height:96px;
+
+}
+.grp{
+    height:20px;
+ 
+   width:20px;
+}   
+.btn2{
+ padding: 5px 30px;
+ background-color: #3E4070;
+ border: none;
+ border:1px solid white;
+ color: white;
+ display:flex;
+ align-items: center;
+ gap:5px;
+ font-family: "Inria Serif", serif;
+  font-weight: 300;
+  font-size: 24px;
+  border-radius: 30px;
+  transition: all 1s;
+
+}
+.btn3{
+  padding: 5px 10px;   
+}
+.ff .btn2:hover{
+    cursor: pointer;
+    zoom:1.06;
+    box-shadow:0px 0px 10px violet;
+    
+  
+}
+.mp{
+    position: relative;
+    top:-380px
+}
+.mpp{
+    position: relative;
+    top:-760px
+}
+.num1{
+    font-size: 157px;
+    color:black;
+    -webkit-text-stroke: 1px white;
+    position: relative;
+    left:-55px;
+    top:-20px;
+    font-family: "Afacad", sans-serif;
+    border-bottom:0px ;
+    /* background-color: black; */
+    /* border: 1px solid #3E4070; */
+    /* background-color: black; */
+
+
+}
+.rec{
+    width:60px;
+    height:20px;
+    position: relative;
+    top:-90px;
+    left:-41px;
+    border: 1px solid black;;
+    background-color:black;
+  
+}
+.boo{
+    height:30px;
+    width:30px;
+    background-color: black;
+    /* border: 1px solid white; */
+    position: relative;
+    top:35px;
+    left:-10px
+
+}
+.num2{
+     left:-50px;
+    top:-100px;  
+}
+.rec2{
+     position: relative;
+   width:59px;
+    height:20px; 
+     top:-154px;
+    left:-61px;
+    /* border: 1px solid white;; */
+    background-color:black; 
+    /* border-right: 1px solid white; */
+}
+.boo1{
+    height:110px;
+    position: absolute;
+    width:30px;
+    background-color:black;
+    /* border: 1px solid white; */
+    position: relative;
+    top:40px;
+    left:-10px
+
+}
+.num2{
+     left:-50px;
+    top:-100px;  
+}
+.rec2{
+     position: relative;
+   width:59px;
+    height:20px; 
+     top:-154px;
+    left:-61px;
+    /* border: 1px solid white;; */
+    background-color:black; 
+    /* border-right: 1px solid white; */
+}
+.boo1{
+    height:110px;
+    position: absolute;
+    width:30px;
+    background-color:black;
+    /* border: 1px solid white; */
+    position: relative;
+    top:40px;
+    left:-10px
+
+}
+.ff1{
+   
+    
+    position: relative;
+    top:-290px;
+    /* margin-bottom: 80px;; */
+   
+}
+.num3{
+     left:-50px;
+    top:-90px;  
+}
+.rec3{
+     position: relative;
+   width:30px;
+    height:10px; 
+     top:-144px;
+    left:-32px;
+    /* border: 1px solid white;; */
+    background-color:black; 
+    transform: rotateZ(179deg);
+    /* border-right: 1px solid white; */
+}
+.clee{
+      color: white;
+    font-size: 10px;
+    position: relative;
+    top:px;
+    left:25px;
+}
+.boo3{
+    height:110px;
+    position: absolute;
+    width:30px;
+    background-color:black;
+    /* border: 1px solid white; */
+    position: relative;
+    top:60px;
+    left:-10px
+
+}
+.ff2{
+  position: relative;
+    top:-280px;  
+}
+.num4{
+     left:-48px;
+    top:-80px;  
+}
+.rec4{
+     position: relative;
+   width:20px;
+    height:10px; 
+     top:-134px;
+    left:px;
+    /* border: 1px solid white;; */
+    background-color:black; 
+    transform: rotateZ(0deg);
+    /* border-right: 1px solid white; */
+}
+.cleee{
+      color: white;
+    font-size: 10px;
+    position: relative;
+    top:-10px;
+    left:13px;
+}
+.boo4{
+    height:90px;
+    position: absolute;
+    width:40px;
+    background-color:black;
+    /* border: 1px solid white; */
+    position: relative;
+    top:50px;
+    /* background-color: aqua; */
+    left:-22px
+
+}
+.ff3{
+  position: relative;
+    top:-260px;  
+}
+.num5{
+     left:-48px;
+    top:-90px;  
+}
+.rec5{
+     position: relative;
+   width:30px;
+    height:20px; 
+     top:-144px;
+    left:-32px;
+    /* border: 1px solid white;; */
+    background-color:black; 
+    transform: rotateZ(0deg);
+    /* border-right: 1px solid white; */
+}
+.cle1{
+      color: white;
+    font-size: 10px;
+    position: relative;
+    top:-10px;
+    left:0px;
+}
+.boo5{
+    height:110px;
+    position: absolute;
+    width:40px;
+    background-color:black;
+    /* border: 1px solid white; */
+    position: relative;
+    top:50px;
+    /* background-color: aqua; */
+    left:-22px
+
+}
+.ff4{
+  position: relative;
+    top:-290px;  
+}
+.num6{
+     left:-48px;
+    top:-90px;  
+}
+.rec6{
+     position: relative;
+   width:30px;
+    height:20px; 
+     top:-144px;
+    left:-34px;
+    /* border: 1px solid white;; */
+    background-color:black; 
+    transform: rotateZ(189deg);
+    /* border-right: 1px solid white; */
+}
+.cle2{
+      color: white;
+    font-size: 10px;
+    position: relative;
+    top:8px;
+    left:20px;
+}
+.boo6{
+    height:110px;
+    position: absolute;
+    width:40px;
+    background-color:black;
+    /* border: 1px solid white; */
+    position: relative;
+    top:50px;
+    /* background-color: aqua; */
+    left:-22px
+
+}
+.ff5{
+  position: relative;
+    top:-290px;  
+}
+
+/* .nn{
+        height:10px;
+    width:100px;
+    border-radius: 50%;
+} */
+.cle{
+    color: white;
+    font-size: 10px;
+    position: relative;
+    top:-6px;
+    left:18px;
+}
+
+
+.boo2{
+
+}
+
+/* ithuku aprm section 4 kaanathu */
+/* ithuku aprm project kaana style */
+.pro{
+    min-height: 300px;
+    /* background-color: #3E4070; */
+    padding:10px 60px;
+   
+
+}
+.pm{
+    display:flex;
+    color: white;
+    gap:40px;
+    /* align-items: center; */
+    /* background-color: aqua; */
+    
+}
+.ht13{
+    font-family: "Poppins", sans-serif;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height:250px
+}
+.ig4{
+    margin-top: 180px;
+ /* padding:120px 20px; */
+ /* width:50% */
+ position: relative;
+}
+.emp{
+  height:300px;
+width:300px; 
+/* top:-330px; */
+top:-20px;
+/* bottom:10px; */
+position: absolute;
+transition: all 2s;
+
+background-image: linear-gradient(#353F54,#7397DF);
+/* clip-path: path("M 20,0 L 280,0 A 20 20 0,0,1  300,20  L 300,125  A 20 20 0,0,1   300,125  A 20 20 0,0,1  280,170 L 20,250 A 20,20 0,0 1 0,230 L 0,20 A 20 20 0,0 1 20,0 Z"); */
+clip-path: path("M 20,0 L 280,0 A 20 20 0,0,1  300,20  L 300,100  A 20 20 0,0,1   300,200  A 20 20 0,0,1  290,220 L 20,300 A 20,20 0,0 1 0,280 L 0,20 A 20 20 0,0 1 20,0 Z"); 
+
+}
+.im1{
+height:300px;
+position: relative;
+width:300px;
+clip-path: path("M 20,0 L 280,0 A 20 20 0,0,1  300,20  L 300,100  A 20 20 0,0,1   300,200  A 20 20 0,0,1  290,220 L 20,300 A 20,20 0,0 1 0,280 L 0,20 A 20 20 0,0 1 20,0 Z"); 
+
+/* background-color: aqua; */
+/* border:1px solid grey; */
+/* box-shadow:5px 5px 3px white ; */
+
+/* clip-path: path("M 20,0 L 280,0 A 20 20 0,0,1  300,20  L 300,130  A 20 20 0,0,1   300,125  A 20 20 0,0,1  280,170 L 20,250 A 20,20 0,0 1 0,230 L 0,20 A 20 20 0,0 1 20,0 Z"); */
+
+}
+.emp:hover{
+    top:-180px;
+background-image: linear-gradient(#353F54,black);
+transition: all 2s;
+
+
+
+}
+.ht14{
+ font-family: "Inter", sans-serif;
+ font-size: 25px;
+ padding-top: 160px;
+
+}
+.ptx{
+    font-size: 20px;
+     font-family: "Abel", sans-serif;
+     width:700px;
+     /* padding-left: 40px;; */
+}
+.spp{
+    background-color: white;
+    color:black;
+    padding: 5px 20px;;
+    display: flex;
+    /* display: inline-block; */
+    justify-content: center;
+    align-items: center;
+    width:120px;
+    gap:10px;
+    border-radius: 5px;
+     font-family: "Inter", sans-serif;
+ font-size: 15px;
+ font-weight: 700px;
+}
+.lk{
+    height:20px;
+    width:20px;
+    
+}
+.txt{
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+/* ithu section 5 education kaagan ulla div  */
+.edu{
+    min-height:300px;
+    padding:20px;
+   
+    
+}
+.six{
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+    border:25px solid white;
+    position: relative;
+    /* background-image: linear-gradient(black,white); */
+    
+}
+.ty{
+    height: 90px;
+    width: 120px;
+    position: absolute;
+    background-color: black;
+    left: 80px;
+    transform: rotateZ(207deg);
+}
+.ty1{
+   height: 90px;
+    width: 130px;
+    position: absolute;
+    background-color: black;
+    left: 80px;
+    transform: rotateZ(207deg);  
+}
+.ty2{
+   height: 90px;
+    width: 80px;
+    position: absolute;
+    background-color: black;
+    left: 80px;
+    top:-20px;
+    transform: rotateZ(221deg);  
+}
+.ht15{
+    color:white;
+    position: absolute;
+    top:60px;
+    left:50px;
+    font-family: "Afacad", sans-serif;
+    font-weight: 400;
+}
+.ht16{
+   color:white;
+    font-family: "Afacad", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 30px;;
+  
+}
+.t3{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding-top: 100px;
+    /* gap:210px; */
+   
+    flex-wrap: wrap;
+}
+/* ithuku aprm varathu contact */
+.con{
+    min-height: 400px;
+    padding: 20px;
+}
+
+.r1{
+    height:285px;
+    width:285px;
+    border-radius: 50%;
+   
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    /* background-color: #7397DF; */
+}
+.r2{
+    height:206px;
+    width:206px;
+    border-radius: 50%;
+   
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+      animation: ball;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+   
+  
+}
+@keyframes ball{
+    0%{
+        transform: translate(0,0);
+        /* box-shadow: 0px 0px 10px #2C7CB2; */
+        /* box-shadow: 0px 80px 80px 20px rgb(255, 0, 0); */
+    }
+    50%{
+    transform: translate(0,20px) scale(0.85);
+     /* box-shadow: 0px 0px 10px #2C7CB2; */
+    /* box-shadow: 0px 80px 80px -20px rgb(139, 221, 63); */
+    
+    }
+
+    100%{
+        transform: translate(0,0);
+         /* box-shadow: 0px 0px 10px #2C7CB2; */
+        /* box-shadow: 0px 80px 80px 20px rgb(50, 50, 51); */
+    }
+}
+.r11{
+ background-image: linear-gradient(to bottom,#000000 60%,#2C7CB2 80%);
+}
+.r12{
+background-image: linear-gradient(#090909 40%,#306B98 60%,#3CABEF 90%);  
+}
+.r21{
+ background-image: linear-gradient(to bottom,#000000 60%,#A0B22C 80%);
+}
+.r22{
+ background-image: linear-gradient(#090909 40%,#687132 60%,#C7EF16 90%);
+}
+.r31{
+ background-image: linear-gradient(to bottom,#000000 60%,#25D3C8 80%);
+}
+.r32{
+ background-image: linear-gradient(#090909 40%,#76B7B8 60%,#338A77 90%);
+}
+.r41{
+background-image: linear-gradient(to bottom,#000000 60%,#409327 80%);
+}
+.r42{
+ background-image: linear-gradient(#090909 40%,#398E4E 60%,#31E23F 90%);
+}
+.r51{
+background-image: linear-gradient(to bottom,#000000 60%,#892793 80%);
+}
+.r52{
+ background-image: linear-gradient(#090909 40%,#AF30BB 60%,#BF3B95 90%);
+}
+.r61{
+background-image: linear-gradient(to bottom,#000000 60%,#3678C5 80%);
+}
+.r62{
+ background-image: linear-gradient(#090909 40%,#304098 60%,#3CABEF 90%);
+}
+
+.hd1{
+height:38px;
+width:91px;
+}
+.linked{
+    color:#0A66C2;
+    font-size: 40px;
+    position: relative;
+    left:20px;
+}
+.inst{
+position: relative;
+    left:20px;
+    height:40px;
+    width:40px
+}
+.hub{
+ color:white;
+    font-size: 40px;
+    position: relative;
+    left:20px;   
+}
+.ml{
+   position: relative;
+    left:5px;  
+    height:40px;
+    width:50px;  
+}
+.ball{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    gap:90px 30px;
+    padding: 40px 20px;
+}
+@media only screen and (min-width:950px) and (max-width:1250px){
+    .hf{
+        gap:10px
+    }
+    .pt{
+width:400px;
+    }
+    .text{
+padding-left: 80px;;
+    }
+    .ht2{
+        font-size:40px;
+
+    }
+
+    .cir1{
+        
+    }
+    .ig{
+   height:500px;
+   /* padding-left:50px; */
+   position: relative;
+    right:-130px;
+    z-index: 1;
+}
+.ig1{
+       height: 450px;
+       width:450px;
+       /* padding-left:-50px; */
+         /* padding-top:60px; */
+    transform: rotateZ(230deg);
+    /* position: fixed; */
+    /* top:30px; */
+    
+    position: relative;
+    right:-70px;
+ 
+    top: 20px;
+    /* background-color: white; */
+}
+.bor{
+    display: none;
+}
+/* about kaanathu */
+.ptxt{
+    width:450px;
+}
+.ig3{
+    margin-left: 190px;;
+    margin-top: 80px;
+
+}
+.card{
+    margin-left: 50px;;
+}
+.ig2{
+margin-left: 20px;
+}
+.bx{
+ display: grid;
+    grid-template-columns: auto auto auto;
+    padding-left:39px;
+    gap:60px 60px;
+    }
+
+
+ .ptx{
+    font-size: 20px;
+     font-family: "Abel", sans-serif;
+    width:100%
+    }
+    .ht14{
+        /* padding-top: 50px;; */
+    }
+
+    
+
+}
+@media only screen and (min-width:650px) and (max-width:950px){
+     .hf{
+        gap:10px
+    }
+    .pt{
+width:300px;
+    }
+    .text{
+padding-left: 80px;;
+    }
+
+    .ht1{
+        font-size: 20px;
+    }
+    .nmid{
+        font-size: 15px;
+    }
+    .ht2{
+        font-size:40px;
+
+    }
+    .btn{
+        padding:5px 20px;
+        font-size: 15px;
+    }
+    .cir1{
+        
+    }
+    .ig{
+   height:350px;
+   /* padding-left:50px; */
+   position: relative;
+    right:0px;
+    top:80px;
+    z-index: 1;
+}
+.ig1{
+       height: 500px;
+       width:500px;
+       /* padding-left:-50px; */
+         /* padding-top:60px; */
+    transform: rotateZ(230deg);
+    /* position: fixed; */
+    /* top:30px; */
+    
+    position: relative;
+    right:0px;
+ 
+    top: 20px;
+    /* background-color: white; */
+}
+.bor{
+    display: none;
+}
+/* about kaanathu */
+.ptxt{
+    width:100%
+    
+}
+.pp{
+    padding-top: 20px;;
+}
+.ig3{
+    margin-left: 40px;;
+    margin-top: 80px;
+
+}
+.sp2{
+    padding-left: 250px;
+}
+.card{
+    margin-left: 30px;;
+}
+.ig2{
+margin-left: 10px;
+}
+.bx{
+ display: grid;
+    grid-template-columns: auto auto;
+    padding-left:39px;
+    }
+    /* ithu project kana style */
+    .ptx{
+    font-size: 20px;
+     font-family: "Abel", sans-serif;
+    width:100%
+    }
+    .ht14{
+        padding-top: 130px;;
+    }
+    /* education kaaga ullathu */
+.t3{
+   
+    gap:40px;
+}
+
+}
+@media only screen and (min-width:300px) and (max-width:650px){
+ .bel:checked+.nmid{
+    left:0px;
+    background-color: white;
+}
+.navv{
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.home{
+    padding:10px;
+}
+    .nmid{
+        width:100%;
+        position: fixed;
+        left:-110%;
+        top:90px;
+        height:85vh;
+        background-color: white;
+        color:black;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 50px;
+        transition: all 1s;
+        /* overflow-x: hidden; */
+    }
+    .lab{
+    display: inline-block;
+}
+.nmid button{
+    display: inline;
+}
+.btn{
+    display: none;
+}
+.text img{
+    display: inline;
+}
+.cir1{
+    display: none;
+}
+.limg{
+    display: none;
+}
+.ht2{
+    font-size:45px;
+    font-weight:500
+}
+.pt{
+    font-size:14px;
+    width:300px;
+    padding:0px;
+}
+.ic{
+    font-size:30px;
+    padding-top:30px;
+}
+.text{
+    padding-top: 0px;;
+}
+.igg{
+    height:400px;
+    /* width:400px */
+}
+.hf{
+    justify-content: center;
+    align-items: center;
+}
+/* about kaanathu  indha div  */
+.lr{
+flex-direction: column;
+ align-items: center;
+    justify-content: center;
+}
+.ptxt{
+    width:100%
+}
+.rnm{
+    text-align: center;
+   
+}
+.card{
+    position: relative;
+    left: -160px;
+}
+.ig2{
+    height:60px;
+    width:60px;
+    position: relative;
+    left: -140px;
+    top:70px
+}
+.ig3{
+    height:60px;
+    width:60px;
+    /* margin-left: 160px; */
+     position: relative;
+    left: -220px;
+    top:-80px
+}
+.pp{
+padding-top: 40px;
+}
+.sp2{
+    padding-left:170px
+}
+.i1{
+    height:31px;
+    width:31px;
+    border:2px solid white
+}
+
+
+.card{
+    height:100px;
+    width:100px;
+    animation: cube;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    /* background-color: blueviolet; */
+    position:relative;
+    transform-style:preserve-3d ;
+    margin-top: 60px;;
+    margin-left:150px;
+    /* padding-left: 80px;; */
+}
+.side{
+    height:100%;
+    width:100%;
+    position: absolute;
+
+}
+/* positive value rotate top */
+.top{
+    transform:rotateX(90deg) translateZ(50px);
+    /* background-color: rgba(153, 144, 144, 0.911); */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color:rgba(10, 8, 8, 0.5);
+    /* border:5px solid white */
+
+}
+/* negative value opposite direction la suththum */
+.bottom{
+     transform:rotateX(-90deg) translateZ(50px);
+    /* background-color: rgba(16, 163, 248, 0.925); */
+     display: grid;
+    grid-template-columns: auto auto auto;
+     background-color:rgba(10, 8, 8, 0.5);
+}
+/* direction y la center ahh nikka vaika 90 deg kuduthurukkom */
+.right{
+    transform: rotateY(90deg) translateZ(50px);
+ /* background-color: rgba(248, 16, 179, 0.836); */
+  display: grid;
+    grid-template-columns: auto auto auto;
+     background-color:rgba(10, 8, 8, 0.5);
+}
+.left{
+     transform: rotateY(-90deg) translateZ(50px);
+ /* background-color: rgba(16, 248, 55, 0.795); */
+  display: grid;
+    grid-template-columns: auto auto auto;
+     background-color:rgba(10, 8, 8, 0.5);
+}
+.back{
+ transform: rotateX(-180deg) translateZ(50px);
+  /* background-color: rgba(248, 175, 16, 0.801); */
+   display: grid;
+    grid-template-columns: auto auto auto;
+     background-color:rgba(10, 8, 8, 0.5);
+}
+.front{
+transform: rotateX(0deg) translateZ(50px);
+  /* background-color: rgba(16, 248, 159, 0.904); */
+   display: grid;
+    grid-template-columns: auto auto auto;
+     background-color:rgba(10, 8, 8, 0.5);
+}
+@keyframes cube{
+    from{
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+    to{
+        transform: rotateX(360deg) rotateY(360deg);
+    }
+}
+.bx{
+    display: grid;
+    grid-template-columns: auto ;
+}
+/* ithu project kaana div */
+.pm{
+    display:flex;
+    color: white;
+    gap:10px;
+    flex-direction: column;
+    /* justify-content: ; */
+    align-items: center;
+    /* background-color: aqua; */
+    
+}
+.ht14{
+ font-family: "Inter", sans-serif;
+ font-size: 25px;
+ padding-top: 50px;
+
+}
+.ptx{
+    font-size: 20px;
+     font-family: "Abel", sans-serif;
+     width:300px;
+     /* padding-left: 40px;; */
+}
+/* education kaaga ullathu */
+.t3{
+   
+    gap:40px;
+}
+}
