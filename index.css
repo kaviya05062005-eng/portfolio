@@ -1043,7 +1043,7 @@ clip-path: path("M 20,0 L 280,0 A 20 20 0,0,1  300,20  L 300,100  A 20 20 0,0,1 
 
 }
 .emp:hover{
-    top:-180px;
+    top:-160px;
 background-image: linear-gradient(#353F54,black);
 transition: all 2s;
 
@@ -1157,6 +1157,7 @@ transition: all 2s;
 .con{
     min-height: 400px;
     padding: 20px;
+    
 }
 
 .r1{
@@ -1450,7 +1451,13 @@ margin-left: 10px;
    
     gap:40px;
 }
-
+.ball{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    gap:90px 30px;
+    padding:0px;
+}
 }
 @media only screen and (min-width:300px) and (max-width:650px){
  .bel:checked+.nmid{
@@ -1530,9 +1537,17 @@ flex-direction: column;
 .ptxt{
     width:100%
 }
+.rightbox{
+    width:100%
+}
 .rnm{
     text-align: center;
+    /* width:500px; */
+    
    
+}
+.pp{
+    /* width:100%; */
 }
 .card{
     position: relative;
@@ -1673,4 +1688,12 @@ transform: rotateX(0deg) translateZ(50px);
    
     gap:40px;
 }
+.ball{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: space-around;
+    gap:90px 30px;
+    padding:0px;
+}
+
 }
