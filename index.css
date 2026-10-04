@@ -1462,7 +1462,7 @@ margin-left: 10px;
 @media only screen and (min-width:300px) and (max-width:650px){
  .bel:checked+.nmid{
     left:0px;
-    background-color: white;
+    background-color: black;
 }
 .navv{
     flex-direction: column;
@@ -1478,8 +1478,8 @@ margin-left: 10px;
         left:-110%;
         top:90px;
         height:85vh;
-        background-color: white;
-        color:black;
+        background-color:black;
+        color:white;
         flex-direction: column;
         justify-content: flex-start;
         padding-top: 50px;
@@ -1697,6 +1697,8 @@ transform: rotateX(0deg) translateZ(50px);
     justify-content: space-around;
     gap:90px 30px;
     padding:0px;
+    margin-top:40px;
+
 }
 
 }
